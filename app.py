@@ -75,8 +75,8 @@ if __name__ == "__main__":
 
     ]
     
-    for d in list(Division):
-        players = [x for x in generate_random_data_for_division(DivisionConfig(d, )  ) ]
+    for d in config:
+        players = [x for x in generate_random_data_for_division(d) ]
     
     
     # print(players)
